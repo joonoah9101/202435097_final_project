@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>작품 목록</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 100%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #505050;
+    padding-left: 20px;
+}
+
+.card-img {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 20px;     
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img a {
+    flex: 0 0 calc(25% - 15px); 
+    box-sizing: border-box;
+}
+
+.card-img a img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start; 
+}
+
+.flex-container .card-img {
+    flex-shrink: 0; 
+}
+
+.flex-container .card {
+    flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        gap: 150px;    
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    } 
+    .card-img a {
+        flex: 1 0 100%;  
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card-img">
+            <a href="sub3-draw1.html"><img src="draw1.png"></a>
+            <a href="sub3-draw2.html"><img src="draw2.png"></a>
+            <a href="sub3-draw3.html"><img src="draw3.png"></a>
+            <a href="sub3-draw4.html"><img src="draw4.png"></a>
+        </div>
+    </div>
+    <div class="leftcolumn">
+        <div class="card-img">
+            <a href="sub3-draw5.html"><img src="draw5.jpg"></a>
+            <a href="sub3-draw6.html"><img src="draw6.jpg"></a>
+            <a href="sub3-draw7.html"><img src="draw7.png"></a>
+            <a href="sub3-draw8.html"><img src="draw8.png"></a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>

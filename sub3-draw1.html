@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>감자를 먹는 사람들</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 85%;
+}
+
+.card-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.card-img a img {
+  display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.flex-container .card-img {
+  flex-shrink: 0; 
+}
+
+.flex-container .card {
+  flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="goqh_banner">
+    <a href="index.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="draw1.png"><img src="draw1.png" width="400"></a>
+            </div>
+            <div class="card">
+                <h1>감자를 먹는 사람들 (The Potato Eaters) 1885.4</h1>
+                <p>빈센트 반 고흐의 초기의 대표작으로 1885년 경에 그려졌다.</p>
+                <p>어느 날에 고흐는 호르트라는 농부네 집을 지나치다가 그 집에 들어갔다. 그때 호르트 가족들은 석유램프 불빛 아래서 감자를 먹고 있었는데 이걸 그린 그림이 바로 이것이다.</p>
+                <p>고흐는 뉘넌 농민들의 빈곤한 삶에 깊이 공감했으며 이들의 어려운 삶과 그 와중에도 희망을 잃지 않고 살아가는 모습을 화폭에 담았다.</p>
+                <p>감자를 먹는 사람들은 고흐의 초기작 중에서도 손꼽히는 명작이다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>

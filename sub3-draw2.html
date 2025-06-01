@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>해바라기</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 85%;
+}
+
+.card-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.card-img a img {
+  display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.flex-container .card-img {
+  flex-shrink: 0; 
+}
+
+.flex-container .card {
+  flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="goqh_banner">
+    <a href="index.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="draw2.png"><img src="draw2.png" width="400"></a>
+            </div>
+            <div class="card">
+                <h1>해바라기 (Sunflowers, Fourth Version) 1888.8</h1>
+                <p>반 고흐는 생전 해바라기 그림을 많이 그렸는데 이 그림은 그 중 4번째 그림으로 아를에서 거주할 때 그렸다고 알려져 있다.</p>
+                <p>파리에서 남프랑스 아를의 노란 집으로 이사를 간 고흐는 자신의 작업실을 꾸미기 위해 해바라기 그림을 많이 그렸다.</p>
+                <p>고흐는 아름다운 곳에서 친구 고갱과 함께 살면서 그림을 그릴 수 있다는 생각에 희망에 가득 찼다.</p>
+                <p>이 시기는 고흐가 행복감에 젖어 살고 있던 때였다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>

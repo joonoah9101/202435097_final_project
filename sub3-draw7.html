@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아를 병원의 정원</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 85%;
+}
+
+.card-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.card-img a img {
+  display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.flex-container .card-img {
+  flex-shrink: 0; 
+}
+
+.flex-container .card {
+  flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="goqh_banner">
+    <a href="index.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="draw7.png"><img src="draw7.png" width="400"></a>
+            </div>
+            <div class="card">
+                <h1>아를 병원의 정원 (The Courtyard of the Hospital at Arles) 1889.4</h1>
+                <p>고흐가 자신의 귀를 자른 후 아를(Arles)의 병원에 입원해 있는 동안 병원과 관련하여 그린 두 점의 그림 중 하나이다.</p>
+                <p>고흐는 1888년 12월 24일부터 1889년 5월 8일까지 5개월 동안 입퇴원을 반복하며 아를의 병원에서 치료를 받았다.</p>
+                <p>노란 집에서 2개월 동안 함께 지낸 폴 고갱이 떠난 후였다. 그의 신체적 상처는 잘 치유되었지만 트라우마로 인해 정신적 상처는 남아 있는 상태였다.</p>
+                <p>세 그루의 잘린 나무로 구성된 이 그림은 고흐가 그토록 동경했던 일본 판화에서 영감을 받았다. 나무줄기는 화단의 기하학적 구조와 건물의 두 날개를 무너뜨리며 중앙 연못의 금붕어가 유쾌한 분위기를 더하고 있다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>

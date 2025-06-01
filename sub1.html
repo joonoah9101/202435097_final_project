@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>고흐의 생애</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #505050;
+    padding-left: 20px;
+}
+
+.card-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.card-img a img {
+  display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.flex-container .card-img {
+  flex-shrink: 0; 
+}
+
+.flex-container .card {
+  flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="goqh_banner">
+    <a href="sub3.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="sub3.html"><img src="img2.jpg"></a>
+            </div>
+            <div class="card">
+                <h1>유년기</h1>
+                <p>1853년 네덜란드에서 목사의 아들로 태어나 어린 시절부터 자연과 미술에 깊은 관심을 보였다.</p>
+                <p>빈센트는 가족의 사랑과 시골 풍경 속에서 자라며 감수성이 풍부한 아이로 성장했다.</p>
+                <p>13세가 된 1866년에 제벤베르헌에서 기초 교육을 마친 후 틸뷔르흐(Tilburg)의 빌럼 2세 국립중학교로 진학했다.</p>
+                <p>1868년 학교를 자퇴후 16세였던 1869년 큰아버지의 주선으로 헤이그의 미술상인 구필 화랑(Goupil & Cie)에서 
+                수습 사원으로 일을 시작했다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="goqh_banner">
+    <a href="sub3-draw1.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="sub3-draw1.html"><img src="img3.jpg"></a>
+            </div>
+            <div class="card">
+                <h1>전도사 시기</h1>
+                <p>젊은 시절 반 고흐는 벨기에의 탄광촌에서 전도사로 활동하며 가난한 이웃들과 함께했다.</p>
+                <p>이 시기 그는 인간의 고통과 삶의 의미에 대해 깊이 고민했다.</p>
+                <p>여러 복합적인 사유로 전도사로서의 길을 접고 예술가로서의 삶을 걷기 시작했다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="goqh_banner">
+    <a href="sub3-draw2.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="sub3-draw2.html"><img src="img8.png" width="300"></a>
+            </div>
+            <div class="card">
+                <h1>화가 활동기</h1>
+                <p>27세에 본격적으로 화가의 길을 걷기 시작한 반 고흐는 짧은 시간 동안 2000여 점의 작품을 남겼다.</p>
+                <p>강렬한 색채와 대담한 붓터치, 그리고 솔직한 감정 표현으로 독창적인 화풍을 완성했다.</p>
+                <p>프랑스 아를, 파리, 생레미 등지에서 활발히 창작 활동을 이어갔다.</p>
+                <p><해바라기>, <별이 빛나는 밤>, <자화상> 등 수많은 명작을 탄생시켰다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="goqh_banner">
+    <a href="sub3.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="sub3.html"><img src="img1.png"></a>
+            </div>
+            <div class="card">
+                <h1>사후 재평가</h1>
+                <p>사후 1930년대부터 빈센트 반 고흐는 전세계적 인기를 가진 대중적인 화가가 되었다.</p>
+                <p>생전에는 거의 인정받지 못하고 외롭게 생을 마감했지만
+                사후 그의 작품은 전 세계적으로 재조명받으며 큰 사랑을 받고있다.</p>
+                <p>반 고흐의 예술은 현대 미술에 지대한 영향을 끼쳤고
+                오늘날에도 그의 삶과 작품은 많은 이들에게 깊은 영감과 감동을 선사하고 있다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>

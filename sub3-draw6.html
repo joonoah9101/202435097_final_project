@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>별이 빛나는 밤</title>
+<style>
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "맑은 고딕";
+    margin: 0;
+    padding: 0;
+    background: #191919;
+}
+
+a, a video {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    padding: 20px;
+    background:	#505050;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.goqh_banner {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover; 
+    display: block;
+    margin-top: 0;
+}
+
+.goqh_banner video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.goqh_banner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: block;
+}
+
+.topnav {
+    display: flex;
+    background-color: #274472;
+}
+
+.topnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    flex: 1;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {
+    float: left;
+    width: 85%;
+}
+
+.card-img {
+    position: relative;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.card-img a img {
+  display: block;
+}
+
+.card {
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.flex-container .card-img {
+  flex-shrink: 0; 
+}
+
+.flex-container .card {
+  flex-grow: 1; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    position: relative;
+    padding: 20px;
+    background: #274472;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .goqh_banner {
+        height: 50px;    
+    }
+    .card {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .card-img {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column;
+    }
+    .header img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+</style>   
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html"><img src="logo.png"></a>
+</div>
+
+<div class="topnav">
+    <a href="sub1.html">고흐의 생애</a>
+    <a href="sub2.html">고흐의 화풍과 기법</a>
+    <a href="sub3.html">작품 목록</a>
+    <a href="sub4.html">고흐와 현대문화</a>
+    <a href="sub5.html">편지쓰기</a>
+</div>
+
+<div class="goqh_banner">
+    <a href="index.html"><img src="black.png"></video></a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="flex-container">
+            <div class="card-img">
+                <a href="draw6.jpg"><img src="draw6.jpg" width="400"></a>
+            </div>
+            <div class="card">
+                <h1>별이 빛나는 밤 (The Starry Night) 1889</h1>
+                <p>고흐의 가장 널리 알려진 그림이자 정신병을 앓고 있을 당시 그가 그린 그림이다.</p>
+                <p>비연속적이고 동적인 터치로 그려진 하늘은 굽이치는 두꺼운 붓놀림으로 사이프러스와 연결되고 그 아래의 마을은 대조적으로 고요하고 평온한 상태를 보여준다.</p>
+                <p>고흐는 병실 밖으로 내다보이는 밤 풍경을 상상과 결합시켜 그렸는데 이는 자연에 대한 고흐의 내적이고 주관적인 표현을 구현하고 있다. </p>
+                <p>수직으로 높이 뻗어 땅과 하늘을 연결하는 사이프러스는 전통적으로 무덤이나 애도와 연관된 나무지만 고흐는 지옥을 불길하게 보지 않았다고 한다.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Representative: Noah<br>
+    ADDRESS: 188-83-54312<br>
+    TEL: 00-3700-9503<br>
+    FAX: 00-411-1389<br>
+    © 2025 Vincent van Gogh Museum, Korea</p>
+</div>
+
+</body>
+</html>
